@@ -1,9 +1,8 @@
 
 
-cp -r /srv/samba/Eman_201911906 /var/log/backup.log
+cp -r /Eman_201911906 /var/log/backup.log
 cd /var/log/backup.log
 
-git init
 git add .
 git commit -m "Backup Change"
 git push  origin master
